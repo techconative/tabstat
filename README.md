@@ -41,16 +41,16 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## To run the utility
 
-> ruby lib/tabstat.rb -f "<file-name>" -d <delimiter> -e "<expression>"
+```
+ ruby lib/tabstat.rb -f "<file-name>" -d <delimiter> -e "<expression>"
+```
 
 ## Parameters
 
-| Parameter  | Purpose                                             | Example    |
-|------------|-----------------------------------------------------|------------|
-| -f/ --file | File on which the utility will have to be executed. | /Users/kannanr/Desktop/projects/7-languages-in-7-weeks/ruby/day3/biostats.csv |
-|            |                                                     |            |
-|            |                                                     |            |
-|            |                                                     |            |
+| Parameter    | Purpose                                                     | Example                                                                    |
+|--------------|-------------------------------------------------------------|----------------------------------------------------------------------------|
+| -f or --file | File on which the utility will have to be executed.         | /Users/kannanr/Desktop/projects/7-languages-in-7-weeks/ruby/day3/biostats.csv |
+| -e or --exp  | Expression containing operations to be executed on the file | `max col1`                                                                 |
 
 
 ## Contributing
